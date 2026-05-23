@@ -7,86 +7,58 @@ import {
 
 const features = [
     {
-        icon: Smartphone,
-        title: 'Instant Airtime Topup',
-        description: 'Top up any Nigerian network (MTN, Airtel, Glo, 9mobile) instantly. Bulk topup supported for resellers.',
-        color: 'from-blue-500 to-indigo-600',
-        tag: 'Core',
-    },
-    {
-        icon: Wifi,
-        title: 'Cheap SME Data',
-        description: 'Access the cheapest SME data bundles in Nigeria. Daily, weekly, and monthly plans for all networks.',
-        color: 'from-cyan-500 to-blue-500',
-        tag: 'Popular',
-    },
-    {
-        icon: ArrowRightLeft,
-        title: 'Airtime to Cash',
-        description: 'Convert excess airtime to cash instantly. Best conversion rates with same-day wallet credit.',
-        color: 'from-emerald-500 to-teal-500',
-        tag: 'Unique',
-    },
-    {
-        icon: Zap,
-        title: 'Electricity Bills',
-        description: 'Pay EKEDC, IKEDC, AEDC, PHEDC and all other DISCOs. Get tokens instantly via SMS and email.',
-        color: 'from-amber-500 to-orange-500',
-        tag: 'Core',
-    },
-    {
-        icon: Tv,
-        title: 'Cable TV Subscription',
-        description: 'Renew DStv, GOtv, Startimes subscriptions at discounted rates. Instant activation guaranteed.',
-        color: 'from-purple-500 to-pink-500',
-        tag: 'Core',
-    },
-    {
         icon: Wallet,
-        title: 'Wallet System',
-        description: 'Secure multi-currency wallet with instant funding via bank transfer, card, or USSD.',
+        title: 'Dashboard',
+        description: 'Real-time balances, transactions and comprehensive user management in one interface.',
         color: 'from-rose-500 to-red-500',
         tag: 'Core',
     },
     {
         icon: Code2,
-        title: 'API Access',
-        description: 'RESTful API with full documentation, sandbox environment, and webhook support for developers.',
+        title: 'Billing & Wallets',
+        description: 'Funding promos, wallet crediting, and manual crediting tools for flexible operations.',
         color: 'from-violet-500 to-purple-600',
-        tag: 'Developer',
+        tag: 'Core',
     },
     {
-        icon: Globe,
-        title: 'Affiliate Branding',
-        description: 'Launch your own branded VTU platform. Custom domain, logo, colors, and hero text.',
-        color: 'from-sky-500 to-cyan-500',
-        tag: 'Enterprise',
+        icon: Smartphone,
+        title: 'Products & Plans',
+        description: 'Bulk plan upload, unique plan generation, and multiple price tiers in one system.',
+        color: 'from-blue-500 to-indigo-600',
+        tag: 'Core',
     },
     {
         icon: History,
-        title: 'Transaction History',
-        description: 'Complete audit trail of all transactions. Export to CSV/PDF for accounting and reconciliation.',
+        title: 'Transactions',
+        description: 'Reprocess, refund, lock for manual review with detailed audit logs and full traceability.',
         color: 'from-slate-500 to-gray-600',
         tag: 'Core',
     },
     {
-        icon: Bot,
-        title: 'Automated Delivery',
-        description: 'Zero manual intervention. All services are delivered automatically 24/7, even on weekends.',
-        color: 'from-green-500 to-emerald-600',
-        tag: 'Core',
-    },
-    {
         icon: Lock,
-        title: 'Secure Payments',
-        description: 'Bank-grade encryption, 2FA, and fraud detection protect every transaction on the platform.',
+        title: 'Security',
+        description: '2FA, transaction PINs, and role-based admin access control for complete protection.',
         color: 'from-red-500 to-rose-600',
         tag: 'Security',
     },
     {
+        icon: Globe,
+        title: 'Localization',
+        description: 'Multi-language support (EN/YO/IG/HA) to serve diverse affiliate audiences.',
+        color: 'from-sky-500 to-cyan-500',
+        tag: 'Pro',
+    },
+    {
+        icon: Code2,
+        title: 'APIs & Webhooks',
+        description: 'Developer-ready endpoints with comprehensive webhooks for seamless integrations.',
+        color: 'from-purple-500 to-pink-500',
+        tag: 'Developer',
+    },
+    {
         icon: BarChart3,
         title: 'Analytics Dashboard',
-        description: 'Real-time insights into your sales, revenue, and customer behavior. Make data-driven decisions.',
+        description: 'Real-time insights into sales, revenue, and customer behavior for data-driven decisions.',
         color: 'from-indigo-500 to-blue-600',
         tag: 'Pro',
     },
@@ -94,10 +66,7 @@ const features = [
 
 const tagColors: Record<string, string> = {
     Core: 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400',
-    Popular: 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400',
-    Unique: 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400',
     Developer: 'bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-400',
-    Enterprise: 'bg-cyan-100 text-cyan-700 dark:bg-cyan-900/30 dark:text-cyan-400',
     Security: 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400',
     Pro: 'bg-indigo-100 text-indigo-700 dark:bg-indigo-900/30 dark:text-indigo-400',
 };
@@ -127,10 +96,10 @@ export default function FeaturesSection() {
                     </span>
                     <h2 className="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
                         Everything You Need to{' '}
-                        <span className="gradient-text">Scale Your VTU Business</span>
+                        <span className="gradient-text">Scale Your Business</span>
                     </h2>
                     <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-                        From individual resellers to enterprise API integrations — our platform has every tool you need to succeed.
+                        Dashboard, billing, products, transactions, security, localization, APIs and more — all in one platform.
                     </p>
                 </motion.div>
 

@@ -10,26 +10,26 @@ interface AboutSectionProps {
 const capabilities = [
     {
         icon: Zap,
-        title: 'VTU Automation',
-        description: 'Fully automated airtime, data, electricity, and cable TV transactions processed in under 3 seconds.',
+        title: 'Turnkey Affiliate System',
+        description: 'Launch reseller programs and track commissions instantly. Everything you need to scale.',
         color: 'from-blue-500 to-indigo-600',
     },
     {
         icon: Globe,
-        title: 'Reseller System',
-        description: 'Build your own VTU business with our white-label reseller platform. Set your own prices and earn daily.',
+        title: 'Multi-Product Commerce',
+        description: 'Data, airtime, cable, electricity, and virtual accounts in one unified platform.',
         color: 'from-cyan-500 to-blue-500',
     },
     {
         icon: Code2,
-        title: 'API Integration',
-        description: 'RESTful API with comprehensive documentation. Integrate VTU services into any app in minutes.',
+        title: 'Flexible Pricing Engine',
+        description: 'Auto-generate product plans, profit rules, and custom pricing in seconds.',
         color: 'from-purple-500 to-pink-500',
     },
     {
         icon: Wallet,
-        title: 'Wallet & Funding',
-        description: 'Secure wallet system with multiple funding options. Track every transaction in real-time.',
+        title: 'Secure Payments & Wallets',
+        description: 'PIN-protected transactions, virtual accounts, and complete admin controls.',
         color: 'from-emerald-500 to-teal-500',
     },
 ];
@@ -65,11 +65,11 @@ export default function AboutSection({ affiliate }: AboutSectionProps) {
                         About {affiliate.name}
                     </span>
                     <h2 className="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                        The Platform Behind{' '}
-                        <span className="gradient-text">Nigeria's VTU Revolution</span>
+                        A Powerful Platform{' '}
+                        <span className="gradient-text">Built for Affiliates</span>
                     </h2>
                     <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-                        {affiliate.tagline}. We power thousands of resellers and developers with reliable, fast, and affordable digital services.
+                        Sell airtime, data, cable & utilities — manage wallets, virtual accounts, and commissions with one comprehensive dashboard.
                     </p>
                 </motion.div>
 

@@ -80,7 +80,7 @@ export default function Hero({ affiliate }: HeroProps) {
                                 }}
                             >
                                 <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: 'var(--brand-primary)' }} />
-                                Nigeria's #1 VTU Platform
+                                Turnkey Affiliate Platform
                             </span>
                         </motion.div>
 

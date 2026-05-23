@@ -59,11 +59,11 @@ export default function ContactSection({ affiliate, flash }: ContactSectionProps
                         Speak with Sales
                     </span>
                     <h2 className="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                        Let's Talk About{' '}
-                        <span className="gradient-text">Your Business</span>
+                        Ready to Get Started?{' '}
+                        <span className="gradient-text">Let's Talk</span>
                     </h2>
                     <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-                        Have questions about our platform? Our sales team is ready to help you find the right plan.
+                        Questions about our affiliate platform? Our sales team is ready to help you find the perfect plan.
                     </p>
                 </motion.div>
 

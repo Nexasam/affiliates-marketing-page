@@ -6,34 +6,26 @@ const steps = [
     {
         step: '01',
         icon: UserPlus,
-        title: 'Create Your Account',
-        description: 'Sign up in under 2 minutes. No paperwork, no waiting. Just your email and you\'re in.',
+        title: 'Create & Configure',
+        description: 'Onboard your affiliate, add products and set up funding options. No technical setup required.',
         color: 'from-blue-500 to-indigo-600',
-        details: ['Free registration', 'Instant activation', 'No KYC for basic use'],
+        details: ['Instant activation', 'Product setup', 'Funding options'],
     },
     {
         step: '02',
-        icon: Wallet,
-        title: 'Fund Your Wallet',
-        description: 'Add funds via bank transfer, card payment, or USSD. Minimum deposit of ₦100.',
+        icon: ShoppingCart,
+        title: 'Sell & Track',
+        description: 'Customers buy via dashboard or landing page; transactions and commissions log automatically.',
         color: 'from-cyan-500 to-blue-500',
-        details: ['Bank transfer', 'Card payment', 'USSD funding'],
+        details: ['Dashboard sales', 'Auto commissions', 'Real-time logs'],
     },
     {
         step: '03',
-        icon: ShoppingCart,
-        title: 'Buy Services or Connect API',
-        description: 'Purchase airtime, data, bills directly or integrate our API into your own application.',
-        color: 'from-purple-500 to-pink-500',
-        details: ['Dashboard purchase', 'REST API access', 'Webhook support'],
-    },
-    {
-        step: '04',
         icon: TrendingUp,
-        title: 'Earn Profit Automatically',
-        description: 'Set your reseller prices and earn the difference on every transaction. Withdraw anytime.',
+        title: 'Scale & Automate',
+        description: 'Use automations, plan-sync and webhooks to scale your affiliate operations effortlessly.',
         color: 'from-emerald-500 to-teal-500',
-        details: ['Automatic profit', 'Daily withdrawals', 'Real-time analytics'],
+        details: ['Auto workflows', 'Webhooks', 'Plan sync'],
     },
 ];
 
@@ -72,7 +64,7 @@ export default function HowItWorks() {
                     {/* Connecting line */}
                     <div className="absolute top-16 left-[12.5%] right-[12.5%] h-0.5 bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-700 to-transparent" />
 
-                    <div className="grid grid-cols-4 gap-8">
+                    <div className="grid grid-cols-3 gap-8">
                         {steps.map(({ step, icon: Icon, title, description, color, details }, i) => (
                             <motion.div
                                 key={step}
