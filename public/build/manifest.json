@@ -1,6 +1,6 @@
 {
   "resources/js/Pages/Landing/Index.tsx": {
-    "file": "assets/Index-Cumk3t-f.js",
+    "file": "assets/Index-XF0uWrB_.js",
     "name": "Index",
     "src": "resources/js/Pages/Landing/Index.tsx",
     "isDynamicEntry": true,
@@ -9,7 +9,7 @@
     ]
   },
   "resources/js/app.tsx": {
-    "file": "assets/app-CxsaKtFu.js",
+    "file": "assets/app-Dg-JbHmZ.js",
     "name": "app",
     "src": "resources/js/app.tsx",
     "isEntry": true,
@@ -17,7 +17,7 @@
       "resources/js/Pages/Landing/Index.tsx"
     ],
     "css": [
-      "assets/app-DSUneNPe.css"
+      "assets/app-BX4YCCGr.css"
     ]
   }
 }

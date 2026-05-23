@@ -78,7 +78,7 @@ export default function Navbar({ affiliate }: NavbarProps) {
                         </button>
 
                         {/* Desktop Navigation */}
-                        <nav className="hidden lg:flex items-center gap-0.5 mx-auto">
+                        <nav className="hidden md:flex items-center gap-0.5 mx-auto">
                             {navLinks.map((link) => (
                                 <button
                                     key={link.href}
@@ -112,7 +112,7 @@ export default function Navbar({ affiliate }: NavbarProps) {
                             </button>
                             <button
                                 onClick={() => scrollTo('#pricing')}
-                                className="inline-flex items-center justify-center px-5 py-2.5 rounded-xl text-sm font-semibold text-white btn-primary hover:shadow-2xl transition-all duration-200 hover:-translate-y-0.5"
+                                className="inline-flex items-center justify-center px-3 py-2 rounded-lg text-sm font-semibold text-white btn-primary hover:shadow-2xl transition-all duration-200 hover:-translate-y-0.5 sm:px-5 sm:py-2.5"
                             >
                                 Get Started
                             </button>
