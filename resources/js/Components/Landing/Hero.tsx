@@ -138,8 +138,8 @@ export default function Hero({ affiliate }: HeroProps) {
                         {/* Social proof numbers */}
                         <motion.div variants={itemVariants} className="mt-10 flex flex-wrap gap-6 justify-center lg:justify-start">
                             {[
-                                { value: '50K+', label: 'Active Users' },
-                                { value: '500K+', label: 'Daily Transactions' },
+                                { value: '5k+', label: 'Active Users' },
+                                { value: '50k+', label: 'Daily Transactions' },
                                 { value: '99.9%', label: 'Uptime' },
                             ].map(({ value, label }) => (
                                 <div key={label} className="text-center lg:text-left">

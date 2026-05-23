@@ -117,7 +117,7 @@ return [
                     'name'    => 'Ngozi Obi',
                     'company' => 'DataQueen NG',
                     'role'    => 'Entrepreneur',
-                    'quote'   => 'I started with ₦5,000 and now I process over ₦500k daily. KunleData made it possible with their amazing platform.',
+                    'quote'   => 'I started with ₦5,000 and now I process over ₦50k daily. KunleData made it possible with their amazing platform.',
                     'rating'  => 5,
                     'avatar'  => 'https://api.dicebear.com/7.x/avataaars/svg?seed=ngozi',
                 ],
@@ -224,7 +224,7 @@ return [
     */
     'stats' => [
         ['label' => 'Active Users',          'value' => '5,000+',  'icon' => 'users'],
-        ['label' => 'Transactions Daily',    'value' => '500K+',    'icon' => 'zap'],
+        ['label' => 'Transactions Daily',    'value' => '50k+',    'icon' => 'zap'],
         ['label' => 'API Uptime',            'value' => '99.9%',    'icon' => 'shield'],
         ['label' => 'Avg Delivery Time',     'value' => '< 3 Sec',  'icon' => 'clock'],
     ],
