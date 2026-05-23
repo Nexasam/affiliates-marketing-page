@@ -223,7 +223,7 @@ return [
     |--------------------------------------------------------------------------
     */
     'stats' => [
-        ['label' => 'Active Users',          'value' => '50,000+',  'icon' => 'users'],
+        ['label' => 'Active Users',          'value' => '5,000+',  'icon' => 'users'],
         ['label' => 'Transactions Daily',    'value' => '500K+',    'icon' => 'zap'],
         ['label' => 'API Uptime',            'value' => '99.9%',    'icon' => 'shield'],
         ['label' => 'Avg Delivery Time',     'value' => '< 3 Sec',  'icon' => 'clock'],

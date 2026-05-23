@@ -61,7 +61,7 @@ export default function Footer({ affiliate }: FooterProps) {
                                 Ready to Start Your VTU Business?
                             </h3>
                             <p className="text-white/80 mb-6 max-w-xl mx-auto">
-                                Join 50,000+ resellers already making money with {affiliate.name}. Start free today.
+                                Join 5,000+ resellers already making money with {affiliate.name}. Start free today.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-3 justify-center">
                                 <button
