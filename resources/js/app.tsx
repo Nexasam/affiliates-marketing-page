@@ -7,6 +7,10 @@ import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 
 const appName = import.meta.env.VITE_APP_NAME || 'VTU Platform';
 
+document.documentElement.classList.add('dark');
+
+document.documentElement.style.colorScheme = 'dark';
+
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,
     resolve: (name) =>
